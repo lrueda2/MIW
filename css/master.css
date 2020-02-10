@@ -1,0 +1,342 @@
+/*   
+Font weight values for Source Sans Pro Family: -
+Light 300, Regular 400, Semi Bold 600, Bold 700, Black 900
+*/
+
+body {
+font-family: 'Lato', sans-serif;
+background-color: rgb(0,0,0);
+}
+
+.layout {
+	width: 100%;
+	margin: 30px auto 30px auto;
+}
+
+img {
+
+	height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background-color: rgb(16,16,16); 
+}
+.header {
+	height: 125px;
+  	width: 99%;
+	padding: 10px;
+	top: 10px;
+}
+
+.header h1{
+	float: left;
+	margin: 10px 5px 150px 0px;
+}
+nav {
+	float: right;
+}
+ul {
+	margin: 55px 10px 0px 0px;
+}
+.header li {
+	display: inline-block;
+	font-size: 18px;
+	margin: 0px 0px 0px 20px;
+}
+li a{
+	color: white;
+}
+li a:hover {
+	color: skyblue;
+}
+.header2 {
+	float: left;
+	margin: 250px 0px 0px 40px;
+}
+/*
+======================================================
+ Home
+ ====================================================== */
+.picture1 {
+	width: 100%;
+	height: auto;
+	margin: 350px 15% 0px 10%;
+	float: left;
+}
+.picture2 {
+	width: 100%;
+	height: auto;
+	margin: 350px 15% 0px 10%;
+	float: left;
+}
+.picture1 h2 {
+	float: left;
+	font-size: 42px;
+	font-weight: 900;
+	color: white;
+}
+.picture2 h3 {
+	float: left;
+	font-size: 42px;
+	font-weight: 900;
+	margin: 150px 2% 0px 2%;
+	color: white;
+}
+/*
+======================================================
+ About
+ ====================================================== */
+.member {
+	padding: 10px;
+	margin: 50px 0px 0px 0px;
+}
+.member h3 {
+	width: 80%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: white;
+	margin: 90px 0px 70px 10px;
+	border-bottom: 5px solid
+}
+.member-box {
+	width: 25%;
+	margin: 20px 5% 20px 2%;
+	float: left;
+}
+.member-box p {
+	color: white;
+	font-size: 25px;
+	font-weight: 600;
+}
+.history h4 {
+	width: 80%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: white;
+	margin: 150px 30px 90px 10px;
+	border-bottom: 5px solid;
+}
+.row1 {
+    margin: 20px 0% 0px 2%;
+}
+.row1 div {
+	width: 40%;
+	color: white;
+    float: left;
+    margin: 30px 5% 0px 0%;
+    font-size: 14px;
+}
+.row1 h5 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.row1 h6 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.row1 h7 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.row2 h8 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.row2 h9 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.row2 h10 {
+	font-size: 20px;
+	font-weight: 600;
+}
+.row2 {
+	 margin: 20px 0% 0px 2%;
+}
+.row2 div {
+	width: 40%;
+	color: white;
+    float: left;
+    margin: 30px 5% 0px 0%;
+    font-size: 14px;
+}
+/*
+======================================================
+ albums
+ ====================================================== */
+.albumart {
+	width: 80%;
+	margin: 90px 10% 50px 2%;
+	padding: 10px;
+	float: left;
+}
+.albumart p{
+    color: white;
+    font-size: 50px;
+	font-weight: 800;
+	border-bottom: 5px solid;
+}
+.albumart li{
+/*
+	display: inline-block;
+	width: 90%;
+    float: right;
+*/
+	margin: 10px 2% 0px -2%;
+	color: white;
+	font-size: 24px;
+	font-weight: 300;
+}
+.albumart nav {
+	float: right;
+}
+.albumart ul {
+	margin: 5px 0px 0px 0px;
+}
+.image1 {
+	display: inline-block;
+}
+.list1 {
+	display: inline-block;
+	padding: 10px;
+}
+.image2 {
+	display: inline-block;
+}
+.list2 {
+	display: inline-block;
+	padding: 10px;
+}
+.image3 {
+	display: inline-block;
+}
+.list3 {
+	display: inline-block;
+	padding: 10px;
+}
+.image4 {
+	display: inline-block;
+}
+.list4 {
+	display: inline-block;
+	padding: 10px;
+}
+
+.image5 {
+	display: inline-block;
+}
+.list5 {
+	display: inline-block;
+	padding: 10px;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: rgb(0,0,0);
+	color: skyblue;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #404040;
+}
+/*
+======================================================
+Moments
+ ====================================================== */
+
+.memories {
+	padding: 10px;
+	margin: 50px 0px 0px 0px;
+}
+.memories h3 {
+	width: 90%;
+	float: left;
+	font-size: 42px;
+	font-weight: 800;
+	color: white;
+	margin: 100px 0px 50px 10px;
+	border-bottom: 5px solid
+}
+
+.first  {
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+	float: left;
+	margin: 50px 0% 0px 2%;
+}
+.first p {
+	font-size: 18px;
+	font-weight: 100;
+	color: white;
+	float: left;
+	margin: 50px 0% 0px 2%;
+	margin-bottom: 50px;
+}
+.first-box {
+	float: left;
+	display: inline-block;
+	margin: 50px 0% 0px 2%;
+}
+
+.second {
+	font-size: 24px;
+	font-weight: 600;
+	color: white;
+	float: left;
+	margin: 50px 0% 0px 2%;
+}
+.second p {
+	font-size: 18px;
+	font-weight: 100;
+	color: white;
+	float: left;
+	margin: 50px 0% 0px 2%;
+	margin-bottom: 50px;
+}
+.second-box {
+	float: left;
+	display: inline-block;
+	margin: 50px 5% 30px 5%;
+}
+
+
+
